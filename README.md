@@ -1,9 +1,22 @@
 # Battlefield
 
+[![GitHub Sponsors](https://img.shields.io/github/sponsors/makarov-mm?style=flat&logo=github)](https://github.com/sponsors/makarov-mm)
+[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+![Erlang](https://img.shields.io/badge/Erlang-A90533?logo=erlang&logoColor=white)
+![Swift](https://img.shields.io/badge/Swift-F05138?logo=swift&logoColor=white)
+![Metal](https://img.shields.io/badge/Metal-000000?logo=apple&logoColor=white)
+![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/makarov-mm/)
+[![Threads](https://img.shields.io/badge/Threads-000000?logo=threads&logoColor=white)](https://www.threads.net/@m.m.makarov)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?logo=instagram&logoColor=white)](https://www.instagram.com/m.m.makarov/)
+
 An autonomous low-poly 3D battle simulation. Two toy armies, red versus green:
 infantry and tanks advance, shoot, throw grenades, die and respawn. Nobody
 controls it. The camera flies over the battlefield on its own, finds the
 hottest spot and films it with cinematic shots. Pure simulation, no input.
+
+## Screenshot
+![Screenshot](screenshot.png)
 
 The architecture follows my other real-time projects (Gray-Scott
 reaction-diffusion, vortex dynamics): an authoritative **Elixir** server runs
@@ -147,3 +160,33 @@ explained every symptom at once.
   reinforcements or morale from an outside data stream without touching the
   combat core. The current build intentionally stays a pure autonomous
   simulation.
+
+## License
+
+MIT License
+
+Copyright (c) 2026 Mykhailo Makarov
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+## Support
+
+If you found this project interesting or useful, you can support my work:
+
+[![GitHub Sponsors](https://img.shields.io/github/sponsors/makarov-mm?style=flat&logo=github)](https://github.com/sponsors/makarov-mm)
