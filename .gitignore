@@ -60,3 +60,10 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+# ignore macOS files
+*.DS_Store
+*DS_Store
+# build outputs of this project
+client/build/
+server/ebin/
